@@ -23,7 +23,7 @@
         console.log(e.target);
         // console.log(this.state); --> will not work, see next video
       }
-      copyHandle(e){
+      copyHandler(e){
         console.log('Try being original for once');
       }
       render(){
@@ -33,7 +33,7 @@
             <p>My name is: { this.state.name } and I am { this.state.age }</p>
             <button onClick={this.clickHandler}>Click me</button>
             <button onMouseOver={this.mouseOverHandler}>Hover me</button>
-            <p onCopy={this.copyHandle}>What we think, we become</p>
+            <p onCopy={this.copyHandler}>What we think, we become</p>
           </div>
         )
       }
