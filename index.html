@@ -16,14 +16,17 @@
         name: 'Ryu',
         age: 30
       }
-      mouseOverHandler(e){
+      mouseOverHandler = (e) => {
         console.log(e.target, e.pageX);
       }
-      clickHandler(e){
+      clickHandler = (e) => {
         console.log(e.target);
-        // console.log(this.state); --> will not work, see next video
+        console.log(this.state);
+        this.setState({
+          name: 'Yoshi'
+        });
       }
-      copyHandle(e){
+      copyHandler = (e) => {
         console.log('Try being original for once');
       }
       render(){
@@ -33,7 +36,7 @@
             <p>My name is: { this.state.name } and I am { this.state.age }</p>
             <button onClick={this.clickHandler}>Click me</button>
             <button onMouseOver={this.mouseOverHandler}>Hover me</button>
-            <p onCopy={this.copyHandle}>What we think, we become</p>
+            <p onCopy={this.copyHandler}>What we think, we become</p>
           </div>
         )
       }
