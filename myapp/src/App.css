@@ -1,0 +1,26 @@
+.ninja{
+  padding: 10px;
+  background: #edf;
+  margin: 10px 0;
+}
+
+button{
+  background: #555;
+  border: 0;
+  color: #fff;
+  padding: 6px;
+  margin: 6px 0;
+  cursor: pointer;
+  display: inline-block;
+}
+
+form{
+  background: #ddd;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+input{
+  display: block;
+  margin: 10px 0;
+}

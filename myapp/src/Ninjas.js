@@ -11,7 +11,6 @@ const Ninjas = ({ninjas, deleteNinja}) => {
               <div>Age: { ninja.age }</div>
               <div>Belt: { ninja.belt }</div>
               <button onClick={() => {deleteNinja(ninja.id)}}>Delete ninja</button>
-              <hr />
             </div>
           )
         })
