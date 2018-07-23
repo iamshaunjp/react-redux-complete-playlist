@@ -1,13 +1,13 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-/todoapp/node_modules
+/poketimes/node_modules
 
 # testing
-/todoapp/coverage
+/poketimes/coverage
 
 # production
-/todoapp/build
+/poketimes/build
 
 # misc
 .DS_Store
