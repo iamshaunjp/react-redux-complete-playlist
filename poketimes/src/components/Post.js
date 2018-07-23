@@ -22,7 +22,7 @@ class Post extends Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
-  let id = parseInt(ownProps.match.params.post_id);
+  let id = ownProps.match.params.post_id;
   return {
     post: state.posts.find(post => post.id === id)
   }
