@@ -1,0 +1,16 @@
+.ninja.div{
+    background-color: blue;
+    color: white;
+    opacity: 0.3;
+}
+h1{
+    background-color: blue;
+    color: white;
+    opacity: 0.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color: white;
+    border: solid;
+    border-color: green;
+}
